@@ -1,25 +1,59 @@
-# 🧵 Tugas Praktikum KPT - Threading & Multiprocessing
-
-Repositori ini berisi 4 file Python yang digunakan untuk simulasi **multithreading**, **multiprocessing**, dan kombinasi **hybrid pipeline** dalam konteks I/O-bound dan CPU-bound.  
-Seluruh file merupakan bagian dari **Tugas Praktikum Komputasi Paralel dan Terdistribusi**.
-
----
-
-## 📁 Isi Folder
-
-| File                | Deskripsi                                                                 |
-|---------------------|--------------------------------------------------------------------------|
-| `tugas1_thread_io.py` | Simulasi I/O-bound menggunakan threading dan perbandingan kecepatan     |
-| `tugas2_thread.py`    | Simulasi CPU-bound menggunakan multiprocessing                         |
-| `tugas3_thread.py`    | Perbandingan I/O-bound dan CPU-bound dengan thread vs process          |
-| `tugas4_thread.py`    | Hybrid pipeline: gabungan thread (loader) dan process (CPU worker)     |
-
----
-
 ## 🛠️ Cara Clone & Setup
 
-1. **Clone repositori ini:**
+### 🔁 **1. Jika Clone dari GitHub:**
 
-```bash
-git clone https://github.com/junothan10/husni_threads.git
-cd husni_threads
+1. Pastikan Git sudah terinstal di komputer.
+   Cek dengan perintah:
+
+   ```bash
+   git --version
+   ```
+
+2. Jalankan perintah berikut untuk clone repositori:
+
+   ```bash
+   git clone https://github.com/junothan10/husni_threads.git
+   cd husni_threads
+   ```
+
+3. Jalankan program dengan perintah `python` seperti di bagian **Cara Menjalankan**.
+
+---
+
+### 📥 **2. Jika Download Manual dari Google Classroom (tanpa GitHub):**
+
+> Metode ini berlaku jika kamu **tidak menggunakan Git**, dan hanya mengunduh file `.zip` atau `.py` dari Classroom.
+
+#### Langkah-langkah:
+
+1. **Download semua file tugas (`.py`)** dari Google Classroom
+
+2. Buat folder khusus, misalnya:
+
+   ```
+   C:\Users\asus\Documents\Tugas Praktikum KPT
+   ```
+
+3. **Pindahkan semua file `.py` ke folder tersebut**, termasuk:
+
+   - `tugas1_thread_io.py`
+   - `tugas2_thread.py`
+   - `tugas3_thread.py`
+   - `tugas4_thread.py`
+
+4. Buka **Command Prompt**, lalu masuk ke folder:
+
+   ```bash
+   cd "C:\Users\asus\Documents\Tugas Praktikum KPT"
+   ```
+
+5. Jalankan program dengan perintah:
+
+   ```bash
+   python tugas1_thread_io.py
+   python tugas2_thread.py
+   python tugas3_thread.py
+   python tugas4_thread.py
+   ```
+
+---
